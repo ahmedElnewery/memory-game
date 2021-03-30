@@ -1,0 +1,9 @@
+div.img{
+   background-image: url("./images/memoryGame/Moon.gif"); 
+   background-color: black;
+   width: 96px;
+   height: 96px;
+}
+#memoryGame {
+    width: 600px;
+}

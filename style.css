@@ -1,0 +1,80 @@
+.width {
+    width: 55px;
+}
+
+table {
+  
+    margin-right: 10px;
+}
+
+#td {
+    font-family: comic sans ms;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    font-size: 9pt;
+}
+
+#ans {
+    width: 100px;
+    text-align: right;
+}
+
+#slideShow .slider-images {
+    width:400px;
+    height: 300px;
+}
+#slideShow .slider-images .image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#slideShow .slider-images .image.active {
+    display: block;
+}
+
+.marble-container {
+    display: flex;
+    justify-content: center;
+}
+#marble {
+    width: 500px;
+    
+}
+table#Text {
+    width: 550px;
+    border-collapse: collapse;
+}
+
+table#Text tr {
+    vertical-align: top;
+}
+
+#PAR {
+    font-family: times new roman;
+    font-size: 11pt;
+    width: 550px;
+    border: solid 1;
+    padding: 10;
+    text-align: left;
+}
+
+table#Text td {
+    font-family: times new roman;
+    font-size: 11pt;
+}
+.center {
+    text-align: center;
+}
+
+.moving-images{
+    position: relative;
+    height: 400px;
+}
+.moving-images img {
+    position: absolute;
+}
+#memoryGame {
+    width: 600px;
+}

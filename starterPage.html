@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container p-5">
+        <h1 class="text-primary text-center"> Test Your Memory...</h1>
+        <div class="d-flex justify-content-center">
+            <div class="col-3 ">
+                <div class=" my-2">
+                    <input type="button" class="btn btn-lg btn-success w-100" value="Easy"
+                        onclick=chooseLevel(this.value)>
+                </div>
+                <div class="my-2">
+                    <input type="button" class="btn btn-lg btn-warning w-100" value="Medium"
+                        onclick=chooseLevel(this.value)>
+                </div>
+                <div class="my-2">
+                    <input type="button" class="btn btn-lg btn-danger w-100" value="Hard"
+                        onclick=chooseLevel(this.value)>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <script src="cookie.js"></script>
+    <script src="staterScript.js"></script>
+</body>
+
+</html>
